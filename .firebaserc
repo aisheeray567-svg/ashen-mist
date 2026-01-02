@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "ashen-mist"
+  },
+  "targets": {
+    "ashen-mist": {
+      "hosting": {
+        "web-user": [
+          "ashen-mist"
+        ],
+        "web-admin": [
+          "ashen-mist-admin"
+        ]
+      }
+    }
+  }
+}

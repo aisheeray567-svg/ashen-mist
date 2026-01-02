@@ -1,0 +1,18 @@
+{
+    "hosting": [
+        {
+            "target": "web-user",
+            "source": "apps/web-user",
+            "frameworksBackend": {
+                "region": "asia-south1"
+            }
+        },
+        {
+            "target": "web-admin",
+            "source": "apps/web-admin",
+            "frameworksBackend": {
+                "region": "asia-south1"
+            }
+        }
+    ]
+}
