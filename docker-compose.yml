@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: password123
-      POSTGRES_DB: wedding_planner
+      POSTGRES_DB: ashen_mist
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
